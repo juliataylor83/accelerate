@@ -12,6 +12,43 @@
 
 @import url("../accelerate-theme/style.css");
 
+/* Top Navigation Menu */
+
+#masthead nav {
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+#masthead nav li {
+	display: inline-block;
+}
+
+#masthead nav li:nth-child(1) {
+	padding-right: 50px;
+}
+
+#masthead nav li:nth-child(2) {
+	padding-right: 50px;
+}
+
+#masthead nav li:nth-child(3) {
+	padding-right: 50px;
+}
+
+#masthead nav li a {
+	color: #e6f2f7;
+	letter-spacing: 0.5px;
+}
+
+#masthead nav li a:hover {
+	color: white;
+}
+
+#masthead nav li.current-menu-item a {
+	color: white;
+	font-weight: bold;
+}
+
 /* Homepage */
 
 .home-page {
@@ -127,7 +164,93 @@
 	margin-bottom: 50px;
 }
 
+/* Contact */
 
+.site-content-contact {
+	width: 620px;
+	margin:auto;
+	padding:0 10px;
+}
+
+.nf-field-label {
+	font-size: 14px;
+	font-weight: normal;
+}
+
+#nf-field-4 {
+	float: right;
+	background-color: #45ac9d;
+	color: white;
+	border: none;
+	padding: 15px 70px;
+}
+
+.nf-field-container.textbox-container.label-above {
+	float: left;
+	width: 45%;
+}
+
+.nf-field-container.email-container.label-above {
+	float: left;
+	width: 45%;
+}
+
+/* About */
+
+.home-page-about {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    margin: 0 0 60px;
+    padding: 100px 0;
+    height: 200px;
+}
+
+.site-content-about h1 {
+	font-weight: normal;
+	font-size: 30px;
+	width: 40%;
+	margin: auto;
+}
+
+.site-content-about h1 span {
+	color: #45ac9d;
+}
+
+.services h3 {
+	text-transform: uppercase;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.services p {
+	text-align: center;
+	line-height: 30px;
+}
+
+.services-individual {
+	margin: auto;
+	width: 960px;
+	margin-top: 80px;
+}
+
+.site-info-about {
+	border-top: 1px dotted #e3e1e1;
+	padding-top:20px;
+	margin-top:40px;
+	width: 960px;
+	margin: auto;
+}
+
+.site-info-about h2 {
+	float: left;
+	margin: 40px 20px 30px 150px;
+}
+
+.site-info-about a {
+	float: left;
+	margin: 20px 100px 40px 20px;
+	padding: 15px 75px;
+}
 
 
 
