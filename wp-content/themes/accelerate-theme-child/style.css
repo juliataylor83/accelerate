@@ -64,31 +64,6 @@
 	background: none repeat scroll 0 0 #45ac9d;
 }
 
-.blog-post {
-	width: 50%;
-}
-
-.blog-post h4 {
-	font-size: 18px;
-	font-family: 'Montserrat';
-	color: #a6a6a6;
-	text-transform: uppercase;
-}
-
-.blog-post h2 {
-	font-size: 24px;
-	font-family: 'Montserrat';
-	font-weight: bold;
-}
-
-.blog-post .read-more-link {
-	font-size: 20px;
-	font-family: 'Montserrat';
-	font-weight: bold;
-	color: #45ac9d;
-	text-transform: uppercase;
-}
-
 .featured-work {
 	margin-bottom: 100px;
 }
@@ -116,6 +91,65 @@
 	text-align: center;
 	margin-top: 18px;
 }
+
+.blog-post {
+	width: 45%;
+	float: left;
+	display: inline-block;
+	margin-left: 40px;
+	margin-bottom: 50px;
+}
+
+.blog-post h4 {
+	font-size: 18px;
+	font-family: 'Montserrat';
+	color: #a6a6a6;
+	text-transform: uppercase;
+}
+
+.blog-post h2 {
+	font-size: 24px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+}
+
+.blog-post .read-more-link {
+	font-size: 20px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+.twitter {
+	width: 45%;
+	float: left;
+	display: inline-block;
+	margin-left: 40px;
+}
+
+.twitter h3 {
+	font-size: 18px;
+	font-family: 'Montserrat';
+	color: #a6a6a6;
+	margin: 36px 0 12px;
+}
+
+.twitter ul li {
+	margin-left: 0;
+}
+
+.twitter li {
+	list-style: none;
+	font-weight: normal;
+	line-height: 26px;
+	margin-top: 30px;
+}
+
+.widget li img {
+	margin: 10px 15px 0 0;
+}
+
 
 /* Case Studies */
 
@@ -335,15 +369,16 @@
 	width: 100px;
 }
 
-.menu-social-media-nav-container {
-	margin: none;
-}
-
 .social-media-menu li {
 	display: inline-block;
 	list-style: none;
-	padding-right: 5px;
-	font-size: 12px;
+	padding-right: 6px;
+	font-size: 11px;
+	margin: 0;
+}
+
+#menu-item-47397 {
+	width: 25px;
 }
 
 .social-media-menu li a:hover {
